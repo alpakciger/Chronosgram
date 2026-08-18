@@ -25,7 +25,7 @@ An automated, lightweight Open Source Intelligence (OSINT) and Social Media Inte
 
 1. **Clone the repository:**
   
-   ``` Bash
+   ```Bash
 git clone https://github.com/alpakciger/Chronosgram.git 
 cd Chronosgram
    ```
