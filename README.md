@@ -11,7 +11,7 @@ An automated, lightweight Open Source Intelligence (OSINT) and Social Media Inte
 - **No-API Telegram Extraction:** Scrapes public channel history, views, post IDs, external links, and ISO 8601 timestamps using Telegram's web preview.
 - **Web Scraping Module:** Multi-page parsing using `BeautifulSoup`.
 - **Chronological Data Formatting:** Cleans and sorts unstructured event logs with `pandas`.
-- **Behavioral Profiling (Timezone / Routine):** Generates dark-themed analytical visualizations using `matplotlib` to identify operational peak hours and weekly activity routines.
+- **Temporal Activity Profiling (Timezone / Routine):** Generates dark-themed analytical visualizations using `matplotlib` to identify operational peak hours and weekly activity routines.
 
 ---
 
