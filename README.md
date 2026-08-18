@@ -25,14 +25,14 @@ An automated, lightweight Open Source Intelligence (OSINT) and Social Media Inte
 
 1. **Clone the repository:**
   
-   ```Bash
+``` Bash
 git clone https://github.com/alpakciger/Chronosgram.git 
 cd Chronosgram
-   ```
+```
 
 2. **Set up virtual environment & install dependencies:**
 
-```Bash
+``` Bash
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
