@@ -1,6 +1,6 @@
 
 
-# 🛰️ Telegram OSINT & Behavioral Activity Analyzer
+# 🛰️ Chronosgram: Telegram OSINT & Behavioral Activity Analyzer
 
 An automated, lightweight Open Source Intelligence (OSINT) and Social Media Intelligence (SOCMINT) pipeline built in Python. This toolkit extracts data from static web endpoints and public Telegram channels without requiring API credentials, parses UTC timestamps, and profiles operational activity patterns.
 
@@ -26,8 +26,8 @@ An automated, lightweight Open Source Intelligence (OSINT) and Social Media Inte
 1. **Clone the repository:**
   
    ``` Bash
-   git clone https://github.com/alpakciger/telegram-osint-analyzer.git 
-   cd telegram-osint-analyzer
+git clone https://github.com/alpakciger/Chronosgram.git 
+cd Chronosgram
    ```
 
 2. **Set up virtual environment & install dependencies:**
@@ -42,14 +42,23 @@ pip install -r requirements.txt
 ```Bash
 python3 telegram_scraper.py
 ```
+## ⚙️ Architecture & Pipeline Flow
 
-4. **Generate Analytics & Activity Report:**
+```text
 
-```Bash
-
-python3 analyzer.py
+[ Target Channel ] 
+       │
+       ▼
+[ HTTP Web Preview Scraper (Requests + BeautifulSoup) ]
+       │
+       ▼
+[ Data Cleaning & Regex Sanitization (Pandas) ] ───► Generates: telegram_<channel>.json
+       │
+       ▼
+[ Behavioral Analyzer & Temporal Profiler (Matplotlib) ] ───► Generates: report_telegram_<channel>.png
 
 ```
+
 ---
 ## ⚖️ Disclaimer & Ethics
 This tool is intended strictly for educational, security research, and open-source intelligence analysis purposes. Ensure compliance with platform Terms of Service and applicable data governance policies.
