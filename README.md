@@ -40,7 +40,7 @@ pip install -r requirements.txt
 3. **Run the Telegram Scraper:**
 
 ```Bash
-python3 telegram_scraper.py
+python3 chronosgram.py
 ```
 ## ⚙️ Architecture & Pipeline Flow
 
